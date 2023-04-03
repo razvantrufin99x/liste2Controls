@@ -23,6 +23,13 @@ namespace liste2Controls
         public ListOfStrings los5 = new ListOfStrings();
         public ListOfStrings los6 = new ListOfStrings();
 
+        public ListOfStrings los7 = new ListOfStrings();
+        public ListOfStrings los8 = new ListOfStrings();
+        public ListOfStrings los9 = new ListOfStrings();
+        public ListOfStrings los10 = new ListOfStrings();
+        public ListOfStrings los11 = new ListOfStrings();
+        public ListOfStrings los12 = new ListOfStrings();
+
         private void button1_Click(object sender, EventArgs e)
         {
             button1.Text = DateTime.Now.ToString();
@@ -48,6 +55,30 @@ namespace liste2Controls
             for (int i = 0; i < 10; i++) los6.addStrings(DateTime.Now.Millisecond.ToString());
             los6.positiony += 100;
             los6.printListToForm(this);
+
+            for (int i = 0; i < 10; i++) los7.addStrings(DateTime.Now.Millisecond.ToString());
+            los7.positiony += 120;
+            los7.printListToForm(this);
+
+            for (int i = 0; i < 10; i++) los8.addStrings(DateTime.Now.Millisecond.ToString());
+            los8.positiony += 140;
+            los8.printListToForm(this);
+
+            for (int i = 0; i < 10; i++) los9.addStrings(DateTime.Now.Millisecond.ToString());
+            los9.positiony += 160;
+            los9.printListToForm(this);
+
+            for (int i = 0; i < 10; i++) los10.addStrings(DateTime.Now.Millisecond.ToString());
+            los10.positiony += 180;
+            los10.printListToForm(this);
+
+            for (int i = 0; i < 10; i++) los11.addStrings(DateTime.Now.Millisecond.ToString());
+            los11.positiony += 200;
+            los11.printListToForm(this);
+
+            for (int i = 0; i < 10; i++) los12.addStrings(DateTime.Now.Millisecond.ToString());
+            los12.positiony += 220;
+            los12.printListToForm(this);
         }
     }
 }
